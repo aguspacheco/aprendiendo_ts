@@ -1,9 +1,6 @@
-// src/index.ts
-
 // 2) funcion que reibe dos valores y retorna su multiplicacion
 
-import { sum } from "./lib/sum";
-
+import { sum } from "./lib/sum.js";
 function multiplicar(a: number, b: number): number {
   return a * b;
 }

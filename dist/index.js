@@ -1,8 +1,5 @@
-"use strict";
-// src/index.ts
-Object.defineProperty(exports, "__esModule", { value: true });
 // 2) funcion que reibe dos valores y retorna su multiplicacion
-const sum_1 = require("./lib/sum");
+import { sum } from "./lib/sum.js";
 function multiplicar(a, b) {
     return a * b;
 }
@@ -15,6 +12,6 @@ const persona = {
 console.log("Persona -> nombre:", persona.nombre);
 console.log("Persona -> edad", persona.edad);
 // 4) Uso el modulo de suma
-const resultadoSuma = (0, sum_1.sum)(3, 5);
+const resultadoSuma = sum(3, 5);
 console.log("Resultado suma (3 + 5):", resultadoSuma);
 //# sourceMappingURL=index.js.map
